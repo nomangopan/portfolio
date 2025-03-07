@@ -1,0 +1,57 @@
+
+.cardPicture {
+    height: 150px;
+    width: 310px;
+    border-radius: 1rem;
+
+}
+
+.cardPicture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+.projectCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+.card-ui {
+    border: 2px solid rgb(101, 101, 101);
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(229, 229, 229);
+}
+.card-btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-btn {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background-color: rgb(55, 55, 55);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.projects{
+  
+    color: brown;
+    background-color: rgb(180, 7, 7);
+padding-bottom: 3rem;
+}
+.projects h1{
+  
+}
