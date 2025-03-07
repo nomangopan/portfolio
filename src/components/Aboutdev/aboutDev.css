@@ -34,3 +34,54 @@
     }
 
 }
+@media (min-width: 270px) and (max-width: 460px) {
+    .aboutdev {
+        padding: 2rem 1rem; /* Reduce padding for small screens */
+        padding-top: 1rem; /* Adjust top padding */
+        height: auto; /* Adjust height */
+    }
+
+    .aboutdev-lr {
+        flex-direction:  column-reverse; /* Stack items vertically */
+        gap: 0rem; /* Add space between stacked items */
+    }
+
+    .aboutdev-r {
+        width: 100%; /* Full width for small screens */
+    }
+}
+
+/* For Tablets (461px to 768px) */
+@media (min-width: 461px) and (max-width: 768px) {
+    .aboutdev {
+        margin-top: 2rem;
+        padding: 2.5rem 2rem; /* Adjust padding for tablets */
+        padding-top: 7rem; /* Adjust top padding */
+    }
+
+    .aboutdev-lr {
+        flex-direction: row-reverse; /* Keep items in a row */
+        gap: 1.5rem; /* Add space between items */
+    }
+
+    .aboutdev-r {
+        width: 50%; /* Adjust width for tablets */
+    }
+}
+
+/* For Larger Screens (769px and above) */
+@media (min-width: 769px) {
+    .aboutdev {
+        padding: 3.5rem 3rem; /* Default padding for larger screens */
+        padding-top: 10rem; /* Default top padding */
+    }
+
+    .aboutdev-lr {
+        flex-direction: row; /* Keep items in a row */
+        gap: 2rem; /* Add space between items */
+    }
+
+    .aboutdev-r {
+        width: 60%; /* Default width for larger screens */
+    }
+}

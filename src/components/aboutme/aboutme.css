@@ -31,3 +31,45 @@ padding: 0.5rem 3rem
     display: flex;
     justify-self: start;
 }
+@media only screen and (max-width: 768px) {
+    .aboutme {
+   
+        flex-direction:  column-reverse;
+        justify-content: center;
+        padding: 0.1rem 0.1rem; 
+        height: (calc(100vh)); 
+
+    }
+
+    .aboutme-picture {
+        height: 250px;
+        width: 280px;
+        margin: 10px 10px 20px 10px;
+       
+      
+    }
+
+    .icon {
+        
+     
+        justify-content: center;
+        margin-top: 10px 10px 10px 10px; 
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .aboutme {
+        padding: 0.5rem; 
+    }
+
+    .aboutme-picture {
+        height: 200px;
+        width: 220px;
+    }
+
+    .icon {
+        font-size: 1rem;
+        gap: 5px; 
+    }
+}

@@ -32,3 +32,36 @@ header {
 .header-menuitems  :hover{
    cursor: pointer;
 }
+@media (max-width: 768px) {
+    header {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .header-menuitems {
+        gap: 0.5rem; 
+        font-size: 0.9rem; 
+    }
+
+    .header-button {
+        font-size: 1.4rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem 1rem; 
+        flex-direction: column;
+        gap: 0.5rem; 
+    }
+
+    .header-menuitems {
+        flex-direction: column;
+        gap: 0.3rem; 
+        font-size: 0.8rem; 
+    }
+
+    .header-button {
+        font-size: 1.2rem; 
+    }
+}
