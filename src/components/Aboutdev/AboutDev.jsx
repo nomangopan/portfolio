@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutdev.css'; // Ensure this file exists in the correct path
+import './aboutDev.css'; // Ensure this file exists in the correct path
 
 const AboutDev = () => {
   return (
