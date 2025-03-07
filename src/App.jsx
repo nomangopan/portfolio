@@ -1,9 +1,9 @@
-import AboutDev from "./components/Aboutdev/AboutDev"
-import AboutMe from "./components/aboutme/Aboutme"
-import Education from "./components/education/Education"
-import Header from "./components/header/Header"
-import Projects from "./components/project/Projects"
-import './index.css'
+import AboutDev from "./components/Aboutdev/AboutDev";
+import AboutMe from "./components/aboutme/Aboutme";
+import Education from "./components/education/Education";
+import Header from "./components/header/Header";
+import Projects from "./components/project/Projects";
+import './index.css';
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Education />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
